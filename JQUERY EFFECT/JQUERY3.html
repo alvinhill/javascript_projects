@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title> JQUERY 3</title>
+    <meta name=charset="UTF-8">
+    <meta name="author" content="Alvin">
+    <!--CSS LINK -->
+<link rel="stylesheet" href="./CSS/DATA.css">
+<!--JQUERY LINK -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+
+<script>
+
+    /* READY FUNCTION   */
+    $(document).ready(function () {
+        /* CREATE HIDE WFFECT WITH JQUERY  */
+$("#hide-bth").on("click",function(){
+$("div").hide("slow",function(){
+    $("#out").text("Content Hidden");});
+
+});
+    });
+    /* READY FUNCTION   */
+    $(document).ready(function () {
+        /* CREATE SHOW WFFECT WITH JQUERY  */
+$("#show-bth").on("click", function (){
+$("div").show("slow",function(){
+    $("#out").text("Content Visible");});
+
+        });
+    });
+</script>
+
+</head>
+
+<body>
+<!--PROVIDE HBML TAGS FOR BUTTONS AND OUTPUT-->    
+<h1>SHOW VISIBILITY EFFECT  </h1>
+<div>Buttons Change Visiblity</div>
+<p> <button id="hide-bth">Hide</button>
+ <button id="show-bth">Show</button>
+<br>Output: <span id="out"></span></p>
+
+</body>
+</html>

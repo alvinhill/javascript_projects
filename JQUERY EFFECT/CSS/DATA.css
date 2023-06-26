@@ -1,0 +1,16 @@
+
+body{
+    background: rgb(242, 213, 107);
+}
+
+/* FORMAT MESSAGE BOX   */
+div {
+    padding: 5px;width: 200px;height: 30px;
+    background:white;border: 2px dashed gray;
+}
+/* FORMAT OUTPUT MESSAGE BOX   */
+
+p{
+    position:absolute;top: 120px;
+    
+}
