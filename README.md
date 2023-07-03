@@ -19,6 +19,8 @@ This is program that demos the slideshow feature using Javascript.
 PIZZA PROJECT
 This program uses HTML, css and Javascript to make a pizza order program.
 
+PORTFOLIO
+This is a site the deoms HTML, css and Javascript to showcase my coding.
 
 TIC TAC TOE
 This program uses HTML, css and Javascript.  Images and sound are also included in
