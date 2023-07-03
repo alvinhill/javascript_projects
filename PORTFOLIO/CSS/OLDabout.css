@@ -1,0 +1,109 @@
+/* test NAV BAR */
+
+body{
+
+font-family: Avant Garde, Helvetica;
+}
+
+body {
+    background: rgb(214, 255, 245);
+}
+
+
+
+.Navbar a {
+    padding: 15px;
+    color: #2430b5;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: none;
+
+}
+
+
+
+.Navbar {
+    overflow: hidden;
+    /* This ensures that any content that overflows beyond the boundary of our nav bar is not displayed */
+    background-color: rgb(232, 167, 214);
+    /* This colors the navbar black */
+    position: fixed;
+    /* This keeps the navbar at the top of the screen as we scroll */
+    top: 0;
+    /* This ensures no space is displayed above the navbar */
+    width: 100%;
+    /* This makes the navbar span the entire width of the page */
+    height: 30px;
+
+    z-index: 1;
+    /* This ensures other elements don't display over the navbar */
+text-align: center;
+font-size: large;
+}
+
+.Navbar a:hover {
+    background-color: #f4f4f4;
+    /* Defines the background color that will display when you hover over the link */
+    color: black;
+    /* This defines the font color that will display when navbar a elements are hovered over */
+    cursor: pointer;
+    transition: 0.5s ease-in;
+}
+
+
+
+h3{
+    text-align: center;
+    padding-top: 50px;
+    text-align: justify;
+/* this font is OK but it could be better */    
+font-family: "Trebuchet MS", Optima;
+font-style: white;
+
+}
+
+
+.column1{
+    float:left;
+    width:400;
+padding: 40px;
+font-family: Avant Garde, Helvetica;
+
+}
+.row {
+    display:flex;
+
+}
+.column2{
+    flex:50%;
+font-family: Avant Garde, Helvetica;
+
+}
+.img-fluid {
+    height: 300px;
+    border-radius: 5%;
+}
+.img-fluid:hover {
+    filter: grayscale(5%);
+    /* Brings back most of the image's color when hovered over */
+    transition: transform 1s;
+    /* Transition lasts 1 second */
+    transform: scale(1.1);
+    /* Image is increased slightly when hovered over */
+}
+
+
+h2{
+        text-align: center;
+        padding-top: 50px;
+        text-align: justify;
+font-family: "Trebuchet MS", Optima;
+    
+padding: 40px;
+
+
+
+}
+footer {
+    color: #000000;
+    text-align: center;
+}

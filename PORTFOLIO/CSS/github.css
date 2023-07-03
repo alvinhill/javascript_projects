@@ -1,0 +1,75 @@
+body {
+    background: rgb(189, 196, 196);
+}
+
+.Navbar a {
+    padding: 15px;
+    color: #000000;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: none;
+}
+
+.Navbar {
+    overflow: hidden;
+    /* This ensures that any content that overflows beyond the boundary of our nav bar is not displayed */
+    background-color: rgb(192, 190, 192);
+    /* This colors the navbar black */
+    position: fixed;
+    /* This keeps the navbar at the top of the screen as we scroll */
+    top: 0;
+    /* This ensures no space is displayed above the navbar */
+    width: 100%;
+    /* This makes the navbar span the entire width of the page */
+    height: 30px;
+
+    z-index: 1;
+    /* This ensures other elements don't display over the navbar */
+    text-align: center;
+    font-size: large;
+}
+
+.Navbar a:hover {
+    background-color: #f4f4f4;
+    /* Defines the background color that will display when you hover over the link */
+    color: black;
+    /* This defines the font color that will display when navbar a elements are hovered over */
+    cursor: pointer;
+    transition: 0.5s ease-in;
+}
+a{
+    color: #9ceee9;
+}
+
+h3 {
+    text-align: center;
+    padding-top: 50px;
+    text-align: justify;
+    padding-right: 30px;
+    padding-left: 175px;
+    font-family: Perpetua, Rockwell Extra Bold;
+  color: #feeeee;
+}
+.column {
+    float: left;
+    width: 50%
+}
+.row {
+    display: flex;
+}
+
+.column {
+    flex: 50%;
+}
+.img-fluid {
+    height: 300px;
+    border-radius: 5%;
+}
+
+h1 {
+    /*BIG GITHUB LABEL   */
+color: #9ceee9;
+text-shadow: 4px 2px #000000;
+    text-align: center;
+    padding-top: 100px;
+    padding-left: 145px;
+}
